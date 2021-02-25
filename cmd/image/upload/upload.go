@@ -130,7 +130,7 @@ pvsadm image upload --bucket bucket1320 -f centos-8-latest.ova.gz -o centos8late
 			}
 			opt.InstanceName = utils.ReadUserInput("Type Name of the Cloud Object Storage instance:")
 			klog.Infof("Creating a new cos %s instance\n", opt.InstanceName)
-			_, err = client.CreateServiceInstance(bxCli.Session, opt.InstanceName, ServiceType, opt.ServicePlan,
+			_, err = bxCli.CreateServiceInstance(opt.InstanceName, ServiceType, opt.ServicePlan,
 				opt.ResourceGrp, ResourceGroupAPIRegion)
 			if err != nil {
 				return err
