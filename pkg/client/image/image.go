@@ -55,6 +55,21 @@ func (c *Client) Delete(id string) error {
 	return c.client.Delete(id, c.instanceID)
 }
 
+func (c *Client) ImportImageFromPublicBucket(bucketName, imageFileName, imageCatalogName, region, id string) ( jobID string, err error ) {
+	var body = models.CreateCosImageImportJob{
+		BucketName: &bucketName,
+		ImageFilename: &imageFileName,
+		ImageName: &imageCatalogName,
+		Region: &region,
+	}
+	imageImportJob, err := c.client.CreateCosImage(&body, id)
+	if err != nil {
+		return
+	}
+	jobID = *imageImportJob.ID
+	return
+}
+
 //func ImportImage imports image from S3 Instance
 func (c *Client) ImportImage(instanceID, imageName, s3Filename, region, accessKey, secretKey, bucketName, storageType string) (*models.Image, error) {
 	var source = "url"
