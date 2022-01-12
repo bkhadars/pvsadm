@@ -10,12 +10,9 @@ require (
 	github.com/IBM/ibm-cos-sdk-go v1.8.0
 	github.com/IBM/platform-services-go-sdk v0.22.7
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
-	github.com/bketelsen/crypt v0.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/go-logr/logr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.21.1 // indirect
-	github.com/go-openapi/errors v0.20.1 // indirect
-	github.com/go-openapi/spec v0.20.4 // indirect
 	github.com/go-openapi/strfmt v0.21.1
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
@@ -30,11 +27,9 @@ require (
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo v1.16.5
-	github.com/onsi/gomega v1.16.0
+	github.com/onsi/gomega v1.17.0
 	github.com/ppc64le-cloud/powervs-utils v0.0.0-20210415051532-4cdd6a79c8fa
 	github.com/sayotte/iscdhcp v0.0.0-20190926162140-d6be84ba9969
-	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
-	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
