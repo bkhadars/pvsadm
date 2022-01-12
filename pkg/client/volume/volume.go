@@ -16,6 +16,7 @@ package volume
 
 import (
 	"fmt"
+	"context"
 	"github.com/IBM-Cloud/power-go-client/clients/instance"
 	"github.com/IBM-Cloud/power-go-client/errors"
 	"github.com/IBM-Cloud/power-go-client/ibmpisession"
@@ -40,16 +41,16 @@ func NewClient(sess *ibmpisession.IBMPISession, powerinstanceid string) *Client 
 		session:    sess,
 		instanceID: powerinstanceid,
 	}
-	c.client = instance.NewIBMPIVolumeClient(sess, powerinstanceid)
+	c.client = instance.NewIBMPIVolumeClient(context.Background(), sess, powerinstanceid)
 	return c
 }
 
 func (c *Client) Get(id string) (*models.Volume, error) {
-	return c.client.Get(id, c.instanceID, pkg.TIMEOUT)
+	return c.client.Get(id)
 }
 
 func (c *Client) DeleteVolume(id string) error {
-	return c.client.DeleteVolume(id, c.instanceID, pkg.TIMEOUT)
+	return c.client.DeleteVolume(id)
 }
 
 func (c *Client) GetAll() (*models.Volumes, error) {
