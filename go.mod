@@ -13,9 +13,8 @@ require (
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/go-logr/logr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.21.1 // indirect
-	github.com/go-openapi/strfmt v0.21.1
+	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
 	github.com/klauspost/compress v1.14.1 // indirect
@@ -32,9 +31,7 @@ require (
 	github.com/sayotte/iscdhcp v0.0.0-20190926162140-d6be84ba9969
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
-	go.mongodb.org/mongo-driver v1.8.2 // indirect
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
+	github.com/stretchr/testify v1.8.0
 	golang.org/x/net v0.0.0-20220111093109-d55c255bac03 // indirect
 	golang.org/x/sys v0.0.0-20220111092808-5a964db01320 // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
