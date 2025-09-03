@@ -6,25 +6,25 @@ toolchain go1.24.1
 
 require (
 	github.com/IBM-Cloud/power-go-client v1.12.0
-	github.com/IBM/go-sdk-core/v5 v5.20.1
-	github.com/IBM/ibm-cos-sdk-go v1.12.2
-	github.com/IBM/platform-services-go-sdk v0.85.0
+	github.com/IBM/go-sdk-core/v5 v5.21.0
+	github.com/IBM/ibm-cos-sdk-go v1.12.3
+	github.com/IBM/platform-services-go-sdk v0.86.1
 	github.com/briandowns/spinner v1.23.2
 	github.com/charmbracelet/huh v0.7.0
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/go-openapi/strfmt v0.23.0
-	github.com/golang-jwt/jwt/v5 v5.2.3
+	github.com/golang-jwt/jwt/v5 v5.3.0
 	github.com/klauspost/pgzip v1.2.6
 	github.com/manifoldco/promptui v0.9.0
-	github.com/olekukonko/tablewriter v1.0.8
+	github.com/olekukonko/tablewriter v1.0.9
 	github.com/onsi/ginkgo v1.16.5
-	github.com/onsi/gomega v1.37.0
+	github.com/onsi/gomega v1.38.2
 	github.com/sayotte/iscdhcp v0.0.0-20190926162140-d6be84ba9969
-	github.com/spf13/cobra v1.9.1
-	github.com/spf13/pflag v1.0.7
-	github.com/stretchr/testify v1.10.0
+	github.com/spf13/cobra v1.10.1
+	github.com/spf13/pflag v1.0.9
+	github.com/stretchr/testify v1.11.1
 	github.com/vbauerster/mpb/v8 v8.10.2
-	go.uber.org/mock v0.5.2
+	go.uber.org/mock v0.6.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
@@ -51,7 +51,7 @@ require (
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.9 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.23.0 // indirect
 	github.com/go-openapi/errors v0.22.1 // indirect
@@ -87,8 +87,8 @@ require (
 	github.com/muesli/termenv v0.16.0 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/olekukonko/errors v0.0.0-20250405072817-4e6d85265da6 // indirect
-	github.com/olekukonko/ll v0.0.8 // indirect
+	github.com/olekukonko/errors v1.1.0 // indirect
+	github.com/olekukonko/ll v0.0.9 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
@@ -98,12 +98,13 @@ require (
 	go.opentelemetry.io/otel v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/crypto v0.38.0 // indirect
-	golang.org/x/net v0.40.0 // indirect
-	golang.org/x/sync v0.14.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	golang.org/x/crypto v0.41.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/term v0.34.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
